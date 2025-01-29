@@ -133,7 +133,7 @@ const TestimonialsEPM = () => {
         •	Certified Oracle Cloud Consultants: 20+ years of experience in implementing Oracle Cloud EPM.
         </p>
         <p className="mb-8 border-body-color border-opacity-10 pt-1 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
-        •	Tailored Solutions: We design and deploy solutions to meet the unique needs of your business, whether you're a small enterprise or a large corporation.
+        •	Tailored Solutions: We design and deploy solutions to meet the unique needs of your business, whether you&#39;re a small enterprise or a large corporation.
         </p>
         <p className="mb-8 border-body-color border-opacity-10 pt-1 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-10 dark:text-white">
         •	Proven Results: Clients experience faster closes, improved forecasting, and better strategic insights.
