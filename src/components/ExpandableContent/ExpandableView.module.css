@@ -1,0 +1,51 @@
+/* components/ExpandableView.module.css */
+
+.expandableWrapper {
+  width: 80%;
+  margin: 20px auto; /* Center the wrapper */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #8aaff3;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.expandableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ffffff; /* Green background */
+  color: rgb(0, 0, 1);
+  border-radius: 8px; /* Rounded corners for header */
+}
+
+.expandableHeader:hover {
+  background-color: #ffffff;
+}
+
+.expandableContent {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.expandableHeader span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.expandableHeader svg {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.expandableHeader svg {
+  transform: rotate(0deg); /* Default position */
+}
+
+.expandableHeader svg.fa-chevron-up {
+  transform: rotate(180deg); /* Rotate for "up" arrow */
+}

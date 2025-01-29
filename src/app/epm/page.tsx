@@ -8,7 +8,10 @@ import Video from "@/components/Video";
 import Brands from "@/components/Brands";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import CircleEffect from "@/components/CircleEffect/CircleEffect";
+import CircleEffect from "@/components/ExpandableContent/ExpandableContent";
+import ExpandableContent from "@/components/ExpandableContent/ExpandableContent";
+import CardView from "@/components/CardView/CardView";
+import BlogDetailsPage from "../blog-details/page";
 
 export const metadata: Metadata = {
   title: "JKMP | EPM",
@@ -25,7 +28,9 @@ const Blog = () => {
       />
       <AboutSectionTwo />
       <FeaturesEPM />
-      <CircleEffect />
+      {/* <CardView /> */}
+      <BlogDetailsPage />
+      <ExpandableContent />
       <TestimonialsEPM/>
     </>
   );

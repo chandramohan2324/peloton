@@ -65,13 +65,15 @@ const Header = () => {
                 /> */}
                 <p style={{width:140,height:30}} className="w-full dark:hidden">
                 JKMP</p>
-                <Image
+                {/* <Image
                   src="/images/logo/logo.svg"
                   alt="logo"
                   width={140}
                   height={30}
                   className="hidden w-full dark:block"
-                />
+                /> */}
+                <p style={{width:140,height:30}} className="hidden w-full dark:block">
+                JKMP</p>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
